@@ -138,11 +138,12 @@ var  LVHome = React.createClass({
 const styles = StyleSheet.create({
     container: {
         flexDirection:'row',
-        backgroundColor: '#f8f8f8',
+        backgroundColor: "red",
         borderBottomWidth:0.5,
         borderBottomColor:'#dddddd',
         paddingBottom:10,
-        paddingTop:10
+        paddingTop:10,
+        borderRadius:20,
     },
     innerContainer:{
         margin:5,
